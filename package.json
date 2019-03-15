@@ -1,15 +1,18 @@
 {
-  "name": "backend",
+  "name": "de-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "nodemon index.js"
+    "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Mark Schutte",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.18.10"
+  "dependencies": {
+    "eslint": "^5.15.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3"
   }
 }
