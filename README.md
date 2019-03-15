@@ -1,17 +1,10 @@
 # First project tech (Drink & Date)
 
-In mijn webapplicatie wordt het mogelijk om mensen met elkaar te verbinden doormiddel van drankjes die zij lekker vinden.
-De gebruiker voert in welke type drankjes hij/zij lekker vindt en dit wordt opgeslagen in de database.
-Een functie gaat ervoor zorgen dat deze gebruikers met elkaar gelinked worden door te kijken welke het meest overeen komen.
+In my web application it will be possible to connect with someone through drinks based on their likes.
+The user can use his/her Untappd account to enter the site. This webapplication will seach someone with the same interests in beer.
+There will be a function that connects the users and will look at the same similarities.
 
-Wanneer er twee gebruikers dezelfde drankjes lekker vinden worden deze gematched. 
-Wanneer de ene gebruiker meer drankjes heeft staan dan de andere gebruiker kunnen zij nog steeds gematched worden.
-
-
-# Features
-Als uitbreiding wil ik ook nog locatie toevoegen aan het systeem.
-Hierdoor worden mensen vanuit Groningen niet gekoppeld met mensen vanuit Amsterdam maar meer in de omgeving.
-
+When two users like the same beers they will be a match.
 
 #Install guide
 To install this project:
@@ -29,9 +22,6 @@ Run start to finish installing this project
 ```
 npm run start
 ```
-
-# Packages included
-- Nodemon (link)
 
 # license
 [Mit](./LICENSE.txt) voor de licentie
