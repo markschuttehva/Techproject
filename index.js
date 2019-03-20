@@ -7,15 +7,16 @@ app
     .set('view engine', 'pug')
     .use('/static', express.static('static'))
     .get('/', home)
-    .get('/matches', matches)
-    .get('/:id', match)
+    .get('/:id', matches)
     .get('*', error404);
 
 function home(req, res){
   res.render("home.pug");
 }
+
 function matches(req, res){
-  res.render("matches.pug");
+  var partner = match(req)
+  res.render("matches.pug", { data: partner });
 }
 function next(req, res){
   res.render("next.pug");
@@ -33,13 +34,13 @@ function note() {
 //   res.render('matches.pug', {data: partner})
 // }
 
-function match(req, res) {
+function match(req) {
   var id = req.params.id
   var partner = db.filter(function (value) {
     return value.id == id
   })
   console.log(db);
   console.log(partner);
-  res.render("matches.pug", { data: partner });
-  res.render("home.pug", { data: partner });
+  return partner;
+ 
 }

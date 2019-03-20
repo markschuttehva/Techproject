@@ -4,8 +4,6 @@
 
 
 
-
-
 //static data
 // This data is temporary until there is an api and database connection
 var data = [

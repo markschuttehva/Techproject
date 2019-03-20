@@ -2,35 +2,19 @@ html
   head
     meta(charset='UTF-8')
     title Login
-    link(rel='stylesheet', type='text/css', href='style/styles.css')
-    script(type='text/javascript', src='functions.js')
+    style
+      include ../style/styles.css
   body
     main
       form(method='post', action='index.html')
         h1 Login
         input#email(type='email', name='email', placeholder=' Email')
         input#password(type='password', name='password', placeholder=' Password')
-        a.btn.btn-sm.animated-button.thar-one(href='/')
+        a.btn.btn-sm.animated-button.thar-one(href='/1')
           p Login
         a.btn.btn-sm.animated-button.thar-two(href='https://untappd.com/create')
           p Sign up
-      p
-        | Forgot your password? 
-        a.link(href='') Click Here!
-        //h2 #{data[0].name}
-    //
-      https://codepen.io/clemishow/pen/ZYPPeE
-      <div id="glass">
-      <div id="beer"></div>
-      </div>
-      <div id="poignet"></div>
-      <div id="mousse_1"></div>
-      <div id="mousse_2"></div>
-      <div id="mousse_3"></div>
-      <div id="mousse_4"></div>
-      <div id="mousse_5"></div>
-      <div id="mousse_volante"></div>
-      <div id="mousse_interieur"></div>
-      <div id="mousse_interieur_2"></div>
-      <div id="mousse_interieur_3"></div>
-      <div id="mousse_interieur_4"></div>
+          
+        p.forgot
+          | Forgot your password? 
+          a.link(href='#') Click Here!
