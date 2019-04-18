@@ -27,3 +27,9 @@ npm run start
 ```
 [Mit](./LICENSE.txt) voor de licentie
 ```
+
+## How does it look like?
+![homepage](./static/home.png)
+![backend](./static/backend.png)
+
+![Logo](./static/logo.png)![Logo](./static/logo.png)![Logo](./static/logo.png)
