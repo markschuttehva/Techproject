@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](../static/logo.png)
 # First project tech (Drink & Date)
 In my web application it will be possible to connect with someone through drinks based on their likes.
 The user can use his/her Untappd account to enter the site. This webapplication will seach someone with the same interests in beer.
