@@ -6,7 +6,7 @@ There will be a function that connects the users and will look at the same simil
 
 When two users like the same beers & they like eachother they will be a match.
 
-# Install guide
+## Install guide
 To install this project:
 First clone the repository of this project
 ```
@@ -23,5 +23,7 @@ Run start to finish installing this project
 npm run start
 ```
 
-# license
+## license
+```
 [Mit](./LICENSE.txt) voor de licentie
+```
