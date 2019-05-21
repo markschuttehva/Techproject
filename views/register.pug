@@ -1,0 +1,23 @@
+html
+  head
+    meta(charset='UTF-8')
+    title Register
+    style
+      include ../style/styles.css
+  body
+    main
+      form(method='post', action='index.html')
+        h1 Register
+        input#id(type="id", name='id')
+        input(type='email', name='email', placeholder=' Email')
+        input(type='password', name='password', placeholder=' Password')
+        input(type='city', name='city', placeholder=' City')
+        input#date(type='date', name='age')
+        input(type='beer', name='beer', placeholder=' Favorite Beer')
+        input(type='url', name='img', placeholder=' Image Link')
+        a.btn.btn-sm.animated-button.thar-two(href='/')
+          p Sign up
+          
+        p.forgot
+          | Forgot your password? 
+          a.link(href='#') Click Here!

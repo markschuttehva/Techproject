@@ -1,30 +1,36 @@
-// Get data from Untappd
-// https://untappd.com/api/docs#userbeers
-
-
-
-
 //static data
 // This data is temporary until there is an api and database connection
-var data = [
+const data = [
     {
         id: 1,
-        name: 'Frans Bauer',
+        name: "Frans Bauer",
         age: 45,
-        beer: 'Amstel',
-        totalbeers: 99,
-        city: 'Amsterdam',
-        img: 'https://pbs.twimg.com/profile_images/2409702159/image_400x400.jpg'
+        beer: "Amstel",
+        city: "Amsterdam",
+        img: "https://pbs.twimg.com/profile_images/2409702159/image_400x400.jpg",
+        email: "Fransiefrans@gmail.com",
+        password: "lalalala"
 	},
     {
         id: 2,
-        name: 'Ali B',
+        name: "Ali B",
         age: 40,
-        beer: 'Desparasos',
-        totalbeers: 1,
-        city: 'Amsterdam',
-        img: 'https://www.sevendays.nl/sites/default/files/styles/node_image/public/Ali_B%20%281%29.jpg?itok=s1sKdU2f'
-	}
+        beer: "Desparasos",
+        city: "Amsterdam",
+        img: "https://www.sevendays.nl/sites/default/files/styles/node_image/public/Ali_B%20%281%29.jpg?itok=s1sKdU2f",
+        email: "knuffelbeer@gmail.com",
+        password: "1234"
+        },
+    {
+        id: 3,
+        name: "johan",
+        age: 25,
+        beer: "cola",
+        city: "hogeveen",
+        img: "https://pbs.twimg.com/profile_images/2409702159/image_400x400.jpg",
+        email: "Fransiefrans@gmail.com",
+        password: "123"
+        }
 ];
 
 module.exports = data;

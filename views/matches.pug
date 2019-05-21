@@ -9,7 +9,6 @@ html
     //https://www.youtube.com/watch?v=l5AXcXAP4r8
   body
     header
-      a(href='') loempia
       |  Welkom #{data[0].name}
       h1 Match
       section(style='max-width: 25em; margin: auto; width: 60%; border: 0.3em aliceblue outset; border-radius: 1em;')
@@ -19,13 +18,14 @@ html
         // naam, leeftijd persoon
         h2 #{data[0].beer}
         // favoriete biertje
-        h3 #{data[0].totalbeers}
-        // totaal aantal verschillende biertjes gedronken
         h3 #{data[0].city}
         // Welke stad komt de persoon vandaan
-        a(href='')
+        a.left(href='2')
+          img.image(src='./static/x.png' style='width:25%')
           p Add
+          
         // toevoegen als connectie
-        a(href='')
+        a.right(href='/' + '#data[0] + 1')
+          img.image(src='./static/x.png' style='width:25%')
           p Skip
         // liever een ander persoon

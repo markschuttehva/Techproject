@@ -8,11 +8,17 @@
     "start": "nodemon index.js"
   },
   "author": "Mark Schutte",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "eslint": "^5.15.1",
     "express": "^4.16.4",
-    "nodemon": "^1.18.10",
     "pug": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markschuttehva/Techproject.git"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "eslint": "^5.15.1"
   }
 }
