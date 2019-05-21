@@ -40,11 +40,15 @@ function note() {
 }
 
 //Get values from the database
-function match(req) {
-  //const id = req.params.id;
-  const {id} = req.params;
-
-  //es4   const partner = db.filter(function(value) {return value.id == id;} );
-  const partner = db.filter (value => value.id == id);
+function match() {
+  //es4 const id = req.params.id;
+  //es4 const partner = db.filter(function(value) {return value.id == id;} );
+  
+  //get the value of one user in the database
+  //const {id} = req.params;
+  //const partner = db.filter (value => value.id == id);
+  
+  //get the value of all users in the database
+  const partner = db.filter(value => value);
   return partner;
 }
