@@ -3,21 +3,21 @@ html
     meta(charset='UTF-8')
     title Register
     style
-      include ../style/styles.css
+      include header.pug
   body
     main
-      form(method='post', action='index.html')
+      form(method='post', action='/register')
         h1 Register
         input#id(type="id", name='id')
-        input(type='email', name='email', placeholder=' Email')
+        input(type='email', name='email', placeholder=' Email', id='email')
         input(type='password', name='password', placeholder=' Password')
         input(type='city', name='city', placeholder=' City')
         input#date(type='date', name='age')
         input(type='beer', name='beer', placeholder=' Favorite Beer')
         input(type='url', name='img', placeholder=' Image Link')
-        a.btn.btn-sm.animated-button.thar-two(href='/')
+        // style button = (btn.btn-sm.animated-button.thar-two)
+        button(type="submit" onclick="checker(document.getElementById('email').value, document.getElementById('a').value, document.getElementById('a').value, document.getElementById('a').value, document.getElementById('a').value, document.getElementById('a').value)") 
           p Sign up
-          
         p.forgot
           | Forgot your password? 
           a.link(href='#') Click Here!

@@ -3,7 +3,7 @@ html
     meta(charset='UTF-8')
     title Match
     style
-      include ../style/styles.css
+      include header.pug
     script(type='text/javascript', src='functions.js')
     //https://www.youtube.com/watch?v=kt3cEjjkCZA&t=1347s
     //https://www.youtube.com/watch?v=l5AXcXAP4r8
@@ -11,23 +11,15 @@ html
     header
       |  Welkom *username*
       h1 Users found: #{data.length}
-      - for(let i = 0; i < data.length; i++) {
-      section(style='max-width: 25em; margin: auto; width: 60%; border: 0.3em aliceblue outset; border-radius: 1em;')
-        img.image(src=data[i].img)
-        //profiel foto
-        h2 #{data[i].name}, #{data[0].age}
-        // naam, leeftijd persoon
-        h2 #{data[i].beer}
-        // favoriete biertje
-        h3 #{data[i].city}
-        // Welke stad komt de persoon vandaan
-        a.left(href='2')
-          img.image(src='./static/x.png' style='width:25%')
-          p Add
-          
-        // toevoegen als connectie
-        a.right(href='/' + '#data[0] + 1')
-          img.image(src='./static/x.png' style='width:25%')
-          p Skip
+      section(class='container')
+        - for(let i = 0; i < data.length; i++) {
+        section(class='items')
+          img.image(src=data[i].img)
+          //profiel foto
+          h2 #{data[i].name}, #{data[i].age}
+          // naam, leeftijd persoon
+          h2 #{data[i].beer}, #{data[i].city} 
+          // favoriete biertje en welke stad komt de persoon vandaan
+          a(href='2')
+            img.heart(src='./static/heart.png')
         - }
-        // liever een ander persoon

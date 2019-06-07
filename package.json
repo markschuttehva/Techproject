@@ -10,7 +10,11 @@
   "author": "Mark Schutte",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "mongodb": "^3.2.5",
+    "mysql": "^2.17.1",
     "pug": "^2.0.3"
   },
   "repository": {

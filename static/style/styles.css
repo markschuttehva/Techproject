@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../../static/images/bg.jpg);
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.full {
+    height: 90%;
+}
+
+/*https://codepen.io/EvyatarDa/pen/waKXMd*/
+
+header {
+    text-align: center;
+    width: 100%;
+}
+.container {
+    background-color: rgba(100, 100, 100, 0.5);
+    display: grid; 
+    grid-template-columns: auto auto auto;
+}
+
+.heart {
+    width: 25%;
+    filter: grayscale(100%)
+}
+
+.heart:hover {
+    filter: grayscale(0%)
+}
+
+section .items {
+    margin: auto; 
+    width: 90%; 
+    border: 0.1em aliceblue outset; 
+    border-radius: 1em; 
+    background-color: #ffffff;
+    height: 62vh;
+    margin-top: 1em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+form {
+    background-color: black;
+    width: 30em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 5em;
+}
+
+form p.forgot {
+    border-top: 1px #F7CA18 solid;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-top: 1em;
+}
+
+img.image {
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 55%;
+}
+
+/* van internet (laad icoon bier) https://codepen.io/clemishow/pen/ZYPPeE */
+
+/*login form*/
+
+main {
+    width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+    color: white;
+    display: table;
+}
+
+.link:hover {
+    color: white;
+}
+
+main input {
+    margin: auto;
+    font-size: 2em;
+    border-radius: 0.3em;
+    margin-bottom: 0.5em;
+    display: flex;
+    padding-left: 0.5em;
+}
+
+main a {
+    display: inline-flex;
+    width: 6em;
+    border: 0.2em solid #F7CA18;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    color: white;
+    margin: 1em;
+    height: 2em;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+
+main a:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+main a p {
+    z-index: 1;
+    margin: auto;
+}
+
+p a {
+    color: #f1c40f;
+    display: contents;
+    margin: auto;
+    font-size: 1em;
+    transition: none;
+}
+
+#id {
+    display: none;
+}
+
+#date {
+    width: 75%;
+}
+
+/* van site https://codepen.io/sazzad/pen/yNNNJG */
+
+/* Thar Buttons */
+
+a.animated-button.thar-one:hover:before {
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+}
+
+a.animated-button.thar-one:before {
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    content: '';
+    background: #F7CA18;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.animated-button.thar-two:hover:before {
+    top: 0%;
+    bottom: auto;
+    height: 100%;
+}
+
+a.animated-button.thar-two:before {
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    content: '';
+    background: #F7CA18;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
