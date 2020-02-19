@@ -1,5 +1,6 @@
 //static data
 // This data is temporary until there is an api and database connection
+// Likedusers is a list with people the user likes
 const data = [
     {
         id: 1,

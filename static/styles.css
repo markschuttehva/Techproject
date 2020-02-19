@@ -1,5 +1,45 @@
-body {
-    background-image: url(images/bg.jpg);
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FCBD12;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: auto;
+}
+
+
+.nav-item:hover {
+    background-color: white;
+    height: 100%;
+    padding: 1.4em 0em 1.4em 0em;
+}
+
+.nav-item1 {
+    text-align: center;
+    list-style-type: none;
+    flex: max-content;
+}
+
+.logonav {
+    width: 4em;
+}
+
+
+.nav-link {
+    display: inline;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-row {
+    display: flex;
+    margin: auto;
 }
 
 .hide{
