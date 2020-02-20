@@ -9,17 +9,17 @@ html
     //https://www.youtube.com/watch?v=l5AXcXAP4r8
   body
     header
-      |  Welkom *username*
+      //Every user found
       h1 Users found: #{data.length}
       section(class='container')
         - for(let i = 0; i < data.length; i++) {
         section(class='items')
           img.image(src=data[i].img)
-          //profiel foto
+          // Profile picture
           h2 #{data[i].name}, #{data[i].age}
-          // naam, leeftijd persoon
+          // name, age
           h2 #{data[i].beer}, #{data[i].city} 
-          // favoriete biertje en welke stad komt de persoon vandaan
+          // Favorite beer, City
           a(href='2')
-            img.heart(src='./static/heart.png')
+            img.heart(src='./static/logo.png')
         - }

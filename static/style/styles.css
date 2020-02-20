@@ -22,13 +22,13 @@ header {
     width: 100%;
 }
 .container {
-    background-color: rgba(100, 100, 100, 0.5);
-    display: grid; 
-    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .heart {
-    width: 25%;
+    width: 35%;
     filter: grayscale(100%)
 }
 
@@ -38,15 +38,12 @@ header {
 
 section .items {
     margin: auto; 
-    width: 90%; 
-    border: 0.1em aliceblue outset; 
+    width: 20em; 
     border-radius: 1em; 
     background-color: #ffffff;
-    height: 62vh;
-    margin-top: 1em;
-    border-top: none;
-    border-right: none;
-    border-left: none;
+    height: 60vh;
+    padding: 0em;
+    margin-bottom: 1em;
 }
 
 header a {

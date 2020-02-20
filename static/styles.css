@@ -1,8 +1,4 @@
 .navbar-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #FCBD12;
 }
 
@@ -10,7 +6,6 @@
     list-style-type: none;
     margin: auto;
 }
-
 
 .nav-item:hover {
     background-color: white;
@@ -51,11 +46,13 @@ h1 {
 }
 
 section{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 30px;
     text-align: center;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 1em;
 }
 
 form {
