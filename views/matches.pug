@@ -11,6 +11,7 @@ html
     header
       //Every user found
       h1 Users found: #{data.length}
+      h1 Filter users ((Ipa, Pils, Fruit, Tripel), (Age) en (locatie))
       section(class='container')
         - for(let i = 0; i < data.length; i++) {
         section(class='items')
